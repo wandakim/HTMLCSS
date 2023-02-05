@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/025d10f91d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+    <!-- Video Player 
+    ?section 으로 감싸야만 하나? 그냥 비디오면 하면 안되나/ -->
+    <section class="player">
+      <video controls src="video/freaky.mp4"></video>
+    </section>
+    <!-- InfoAndUpNext -->
+    <div class="infoAndUpNext">
+      <!-- Video info -->
+      <section class="videoinfo">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#vincentkim</li>
+            <li>#wandakim</li>
+            <li>#doitright</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam odit, architecto adipisci veritatis incidunt nobis,
+              aliquam vero repellendus illum soluta aperiam saepe voluptas,
+              laudantium tempora eos est hic quas ut?alskjdflkjaslkjdflkasjdf
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1day ago</span>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/IMG_1479.PNG" alt="" />
+            <div class="channel__info">
+              <span class="name">Wanda LAB</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+      <!-- up next -->
+      <section class="upNext">
+        <span class="untitle">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/un1.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >Travis Scott feat. Young Thug & M.I.A. - FRANCHISE (Official
+                Music Video)</span
+              >
+              <span class="name">travis scott</span>
+              <span class="views">59M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/un2.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >Travis Scott, HVME - Goosebumps (Remix - Official Audio)
+              </span>
+              <span class="name">travis scott</span>
+              <span class="views">593M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/un3.png" alt="" /></div>
+            <div class="info">
+              <span class="title">Travis Scott - SICKO MODE ft. Drake</span>
+              <span class="name">travis scott</span>
+              <span class="views">59M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
